@@ -1,1 +1,67 @@
 /* My Times Styles*/
+*{
+  border: 1px solid black;
+}
+header{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color:AquaMarine;
+  width:100%;
+  border-bottom: 1px solid black;
+}
+
+header a{
+  color: black;
+}
+
+.logo{
+  display:flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 6px 12px;
+  margin-right: 12px;
+}
+
+.logo img{
+  margin-right: 12px;
+}
+nav{
+  display: block;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.maincontent{
+  display:flex;
+
+  justify-content: space-around;
+
+}
+
+.column{
+  display: flex;
+  align-items: center;
+
+}
+
+.column .large {
+  width: 630px;
+  padding: 0 12px;
+}
+
+.column .medium {
+  width: 300px;
+  padding: 0 12px;
+}
+
+.column .small {
+  width: 240px;
+  padding: 0 12px;
+}
