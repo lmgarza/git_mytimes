@@ -1,7 +1,7 @@
 /* My Times Styles*/
-*{
+/*{
   border: 1px solid black;
-}
+}*/
 header{
   display: flex;
   align-items: center;
@@ -12,6 +12,12 @@ header{
   color:AquaMarine;
   width:100%;
   border-bottom: 1px solid black;
+}
+
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 header a{
@@ -40,28 +46,96 @@ nav span{
 
 .maincontent{
   display:flex;
-
   justify-content: space-around;
+  margin-top: 40px;
 
 }
 
-.column{
+.columns{
   display: flex;
-  align-items: center;
+  align-items: top;
 
 }
 
-.column .large {
+.columns .large {
   width: 630px;
   padding: 0 12px;
 }
 
-.column .medium {
+.columns .medium {
   width: 300px;
   padding: 0 12px;
 }
 
-.column .small {
+.columns .small {
   width: 240px;
   padding: 0 12px;
+}
+
+.main-image{
+  display: flex;
+  background-image: url("../resources/img-story-main.png");
+  width: 630px;
+  height: 300px;
+  color: white;
+  font-family: Georgia, serif;
+  align-items: center;
+
+}
+.main-image h1{
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.secondary-image2{
+  display: flex;
+  background-image: url("../resources/img-story-2.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia, serif;
+  align-items: center;
+}
+.secondary-image2 h1{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.secondary-image3{
+  display: flex;
+  background-image: url("../resources/img-story-3.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia, serif;
+  align-items: center;
+}
+.secondary-image3 h1{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.medium-image4{
+  display: flex;
+  background-image: url("../resources/img-story-1.png");
+  height: 300px;
+  color: white;
+  font-family: Georgia, serif;
+  align-items: center;
+}
+.medium-image4 h1{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.secondary-stories{
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-column{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
